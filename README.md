@@ -1,7 +1,7 @@
 
 <h1>Luxury Housing Analysis – Bangalore</h1>
 <h1>Project Overview</h1>
-This project analyzes the Luxury Housing Market in Bangalore to uncover insights regarding pricing models, amenity impact, builder performance, and customer conversion trends.
+This project analyzes the Luxury Housing Market in Bangalore to uncover insights regarding pricing models, builder performance, and customer conversion trends.
 The workflow integrates Python for backend data engineering and Power BI for high-level executive storytelling.
 Python (Pandas, NumPy): Data cleaning, normalization, and statistical preprocessing.
 Power BI: Interactive dashboarding and geospatial trend analysis.
