@@ -1,40 +1,80 @@
-Luxury Housing Data Analysis
-This project analyzes luxury housing data in Bangalore to understand key factors influencing property prices, conversion rates, 
-and buyer behavior. The project combines data analysis using Python (Pandas, NumPy) 
-and interactive visualization using Power BI to generate actionable insights.
 
+Luxury Housing Analysis – Bangalore
+ Project Overview
+This project focuses on analyzing Luxury Housing data in Bangalore to uncover insights about pricing, amenities, builder performance, and customer conversion trends.
+The analysis is performed using:
+•	Python (Pandas, NumPy) for data cleaning & preprocessing
+•	Power BI for interactive data visualization
 Objectives
-Clean and preprocess real-world housing data
-Perform exploratory data analysis (EDA)
-Analyze relationships between:
-Amenities vs Conversion Rate
-Pricing vs Location/Builder
-Project distribution
-Build interactive dashboards in Power BI
-Derive insights to support business decision-making
+•	Understand factors influencing property conversion rate
+•	Compare builder performance
+•	Identify trends in pricing and demand
+ Dataset
+The dataset contains information about:
+•	Property ID
+•	Builder Name
+•	Location
+•	Ticket Price
+•	Amenity Score
+•	Booking Flag (Converted / Not Converted)
+Data Processing (Python)
+Steps performed:
+•	Data cleaning (handling missing values)
+•	Data type corrections
+•	Feature understanding
+•	Basic statistical analysis
+Example:
+Conversion Rate = (Total Bookings / Total Properties) * 100
+Power BI Dashboard
+Key Visualizations:
+Key Visualizations
+Builder Revenue Comparison
+•	Bar chart comparing total revenue across developers 
+•	Identifies top-performing builders 
+Quarterly Market Trends
+•	Line chart showing booking trends (Q1–Q4) 
+•	Segmented by micro-markets (locations) 
+•	Helps analyze seasonal demand 
+
+Configuration Demand
+•	Donut chart of: 
+o	3BHK 
+o	4BHK 
+o	5BHK+ 
+•	Highlights buyer preferences 
+ Sales Channel Efficiency
+•	Stacked bar chart: 
+o	Booked vs Not Booked 
+o	Across channels (Online, Broker, NRI Desk, Direct) 
+•	Identifies most effective sales channels 
+ Booking Count by Status & Buyer Type
+•	Clustered bar chart showing bookings across: 
+o	Launch 
+o	Under Construction 
+o	Ready to Move 
+•	Segmented by buyer types 
+ Location Map
+•	Map visualization of projects across Bangalore 
+•	Highlights high-demand areas 
+KPI Cards
+•	Total Revenue: 1.15M 
+•	Conversion Rate: 50.01% 
+•	Provides quick performance summary 
+Builder Performance Table
+•	Detailed comparison of: 
+o	Revenue 
+o	Conversion Rate 
+•	Helps identify top performers 
 
 
-Technologies Used
-   Python
-   Pandas
-   NumPy
-   SQLAlchemy
-   Power BI
-   Excel / CSV
+Tools & Technologies
+•	 Python
+•	Power BI
+•	Pandas
+•	NumPy
+
+Dashboard Preview
+
+
 
    
-Data Processing Workflow
-Data Loading
-Loaded dataset using pandas.read_csv()
-Data Inspection
-Checked shape, columns, data types
-Used .head(), .info(), .describe()
-Data Cleaning
-Handled missing values
-Removed duplicates
-Converted data types where necessary
-Feature Engineering
-Created:
-Conversion Rate = (Bookings / Total Properties) × 100
-Project Count
-Amenity Score
